@@ -1,0 +1,18 @@
+<application>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/anaconda3/envs/Flask/bin/python" value="false" />
+        <entry key="$USER_HOME$/anaconda3/envs/py27-flask/bin/python" value="false" />
+        <entry key="$USER_HOME$/anaconda3/envs/python36/bin/python" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="$USER_HOME$/anaconda3/envs/Flask/bin/python" value="false" />
+        <entry key="$USER_HOME$/anaconda3/envs/py27-flask/bin/python" value="true" />
+        <entry key="$USER_HOME$/anaconda3/envs/python36/bin/python" value="false" />
+      </map>
+    </option>
+  </component>
+</application>
