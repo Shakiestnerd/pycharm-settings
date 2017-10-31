@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'KNPC-PDF-Stamping'" />
-    <option name="defaultScopeName" value="Project 'KNPC-PDF-Stamping'" />
+    <option name="customScope" value="File '[KNPC-PDF-Stamping] - ...\stampede.py'" />
+    <option name="defaultScopeName" value="File '[KNPC-PDF-Stamping] - ...\stampede.py'" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'KNPC-PDF-Stamping'" />
+    <option name="SEARCH_SCOPE" value="File '[KNPC-PDF-Stamping] - ...\stampede.py'" />
   </component>
 </application>
