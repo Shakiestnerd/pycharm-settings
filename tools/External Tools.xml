@@ -1,0 +1,26 @@
+<toolSet name="External Tools">
+  <tool name="PEP8" description="Run external PEP8 xommand" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="pep8" />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+    <filter>
+      <option name="NAME" value="Basic Filter" />
+      <option name="DESCRIPTION" value="Filter for files to check" />
+      <option name="REGEXP" value="$FILE_PATH$\:$LINE$\:$COLUMN$\:.*" />
+    </filter>
+  </tool>
+  <tool name="PyFlakes" description="External PyFlakes Tool" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="pyflakes" />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+    <filter>
+      <option name="NAME" value="Filter 1" />
+      <option name="DESCRIPTION" value="" />
+      <option name="REGEXP" value="$FILE_PATH$\:$LINE$\:$COLUMN$\:.*" />
+    </filter>
+  </tool>
+</toolSet>
